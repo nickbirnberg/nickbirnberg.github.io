@@ -1,0 +1,32 @@
+body {
+	background-color: #151515;
+	text-align: center;
+	margin-top: 100px;
+}
+
+a {
+	color: #169;
+}
+
+img {
+	border-radius: 150px;
+	display: inline-block;
+	position: relative;
+}
+
+.links {
+	list-style: none;
+	text-align: center;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.links li {
+	display: inline-block;
+	margin: 0px 10px;
+	position: relative;
+}
+
+.links a {
+	font-size: 25px;
+}
