@@ -30,3 +30,48 @@ img {
 .links a {
 	font-size: 25px;
 }
+
+.animated {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulse {
+	0% {
+		box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+	}
+
+	50% {
+		box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.4);
+	}
+
+	100% {
+		box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+	}
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+	}
+
+	50% {
+		box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.3);
+	}
+
+	100% {
+		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.1);
+	}
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+}
